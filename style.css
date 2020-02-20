@@ -215,9 +215,7 @@ display: block;
   
 }
 @media screen and (max-width: 600px) {
-	body{background-image:url(a4.jpg);background-repeat:no-repeat;background-attachment: fixed; background-size:100% 100%;
-background-position: center;
- height: 100%;}
+	body{background-image:url(a4.jpg);background-repeat:no-repeat;background-attachment: fixed; background-size:100% 100%;background-position: center; height: 100%;}
         #content1,#content2,#scontent{ float:none;margin: 0 auto;width: 100%;height: auto;}
 	#content1,#content2{min-height: 350px;}
 	#scontent{min-height: 250px;}
@@ -228,13 +226,7 @@ background-position: center;
     text-align: center;
     float: none;
   }
-	body{background-image:url(a4.jpg);
-background-repeat:no-repeat;
-background-attachment: fixed;
-    background-size:100% 100%;
-
-background-position: center;
- height: 100%;}
+	body{background-image:url(a4.jpg);background-repeat:no-repeat;background-attachment: fixed; background-size:100% 100%;background-position: center; height: 100%;}
 }
 .tabcontent {
   display: none;
