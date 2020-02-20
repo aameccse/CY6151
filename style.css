@@ -215,7 +215,12 @@ display: block;
   
 }
 @media screen and (max-width: 600px) {
-	body{background-color:#156fb0;}
+	body{background-image:url(a4.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: cover;
+background-position: center;
+ height: 100%;}
         #content1,#content2,#scontent{ float:none;margin: 0 auto;width: 100%;height: auto;}
 	#content1,#content2{min-height: 350px;}
 	#scontent{min-height: 250px;}
