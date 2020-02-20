@@ -217,7 +217,7 @@ display: block;
 @media screen and (max-width: 600px) {
 	body{background-image:url(a4.jpg);
 background-repeat:no-repeat;
-background-attachment:fixed;
+background-attachment: fixed;
 background-size: cover;
 background-position: center;
  height: 100%;}
@@ -231,6 +231,12 @@ background-position: center;
     text-align: center;
     float: none;
   }
+	body{background-image:url(a4.jpg);
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+ height: 100%;}
 }
 .tabcontent {
   display: none;
